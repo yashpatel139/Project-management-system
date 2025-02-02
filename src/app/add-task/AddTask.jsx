@@ -64,7 +64,7 @@ const AddTask = () => {
             </label>
             <input
               type="text"
-              className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-gray-800 border border-gray-400"
+              className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-gray-800 border border-gray-400 text-white"
               id="task_title"
               name="task_title"
               onChange={(event) =>
@@ -86,7 +86,7 @@ const AddTask = () => {
               Content
             </label>
             <textarea
-              className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-gray-800 border border-gray-400"
+              className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-gray-800 border border-gray-400 text-white"
               id="task_content"
               rows={5}
               name="task_content"
@@ -110,7 +110,7 @@ const AddTask = () => {
             </label>
             <select
               id="task_status"
-              className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-gray-800 border border-gray-400"
+              className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-gray-800 border border-gray-400 text-white"
               name="task_status"
               onChange={(event) => setTask({
                 ...task,

@@ -70,7 +70,7 @@ const Login = () => {
               </label>
               <input
                 type="email"
-                className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-gray-800 border border-gray-400"
+                className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-gray-800 border border-gray-400 text-white"
                 id="user_email"
                 name="user_email"
                 onChange={(event) => {
@@ -92,7 +92,7 @@ const Login = () => {
               </label>
               <input
                 type="password"
-                className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-gray-800 border border-gray-400"
+                className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-gray-800 border border-gray-400 text-white"
                 id="user_password"
                 name="user_password"
                 onChange={(event) => {

@@ -13,11 +13,11 @@ const Task = ({task, deleteTaskInParent}) => {
     }
 
   return (
-    <div className={ `shadow-lg my-2 rounded ${task.status=="completed"?"bg-green-800":"bg-gray-800"}` }>
+    <div className={ `shadow-lg my-2 rounded ${task.status=="completed"?"bg-green-500":"bg-gray-400"}` }>
         <div className='p-5'>
             <div className='flex justify-between'>
             <h1 className='text-2xl font-semibold'>{task.title}</h1>
-            <span onClick={() => deleteTask(task._id)} className='shadow-lg bg-gray-950 hover:bg-gray-900 rounded-full w-9 h-9 flex justify-center items-center cursor-pointer'>
+            <span onClick={() => deleteTask(task._id)} className='shadow-lg bg-gray-950 hover:bg-gray-900 rounded-full w-9 h-9 flex justify-center items-center cursor-pointer text-white'>
             <RxCross1 />
             </span>
             </div>

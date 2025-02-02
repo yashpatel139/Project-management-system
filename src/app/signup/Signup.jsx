@@ -85,7 +85,7 @@ const Signup = () => {
               </label>
               <input
                 type="text"
-                className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-gray-800 border border-gray-400"
+                className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-white border border-gray-400 text-white"
                 id="user_name"
                 name="user_name"
                 onChange={(event) => {
@@ -107,7 +107,7 @@ const Signup = () => {
               </label>
               <input
                 type="email"
-                className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-gray-800 border border-gray-400"
+                className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-white border border-gray-400 text-white"
                 id="user_email"
                 name="user_email"
                 onChange={(event) => {
@@ -129,7 +129,7 @@ const Signup = () => {
               </label>
               <input
                 type="password"
-                className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-gray-800 border border-gray-400"
+                className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-white border border-gray-400 text-white"
                 id="user_password"
                 name="user_password"
                 onChange={(event) => {
@@ -150,7 +150,7 @@ const Signup = () => {
                 About
               </label>
               <textarea
-                className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-gray-800 border border-gray-400"
+                className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-white border border-gray-400 text-white"
                 id="user_about"
                 rows={8}
                 name="user_about"
